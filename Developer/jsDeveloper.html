@@ -1,5 +1,16 @@
 <!-- html:5 باستخدام HTMLقم بتهيئة ملفك ال -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./js/style.css">
+</head>
+<body>
+     <script src="./js/scripts.js"></script>
+</body>
+</html>
 <!-- HTMLبصفحتك ال scripts.js قم بربط ملف -->
 
 <!-- المهام -->
@@ -54,6 +65,38 @@
 <!-- -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- -->
 
 <!-- المهمة الثالثة -->
+
+<div class="container">
+     <div>
+          <label class="fix">quizes grade</label>
+          <input id="gr1" type="text" placeholder="quizes" />
+     </div>
+     <div>
+          <label class="fix">midterm grade</label>
+          <input id="gr2" type="text" placeholder="midterm" />
+     </div>
+     <div>
+          <label class="fix">final test grade</label>
+          <input id="gr3" type="text" placeholder="final test" />
+     </div>
+     <div>
+          <label class="fix">oral grade</label>
+          <input id="gr4" type="text" placeholder="oral" />
+     </div>
+
+
+</div>
+      <button onclick="mis3()">calculate</button>
+<div>
+     <p class="numericgrade">this is your numeric grade :
+           <p id="calbutton" class="cal">_</p>
+     </p>
+</div>
+
+<p class="numericgrade">this is your letter grade : <p id="letter" class="cal"> _</p>
+</p>
+
+<script src="js/scripts.js"></script>
 
 <!-- في هذه المهمة ستقوم بإنشاء حاسبة درجات -->
 
